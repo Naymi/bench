@@ -1,0 +1,39 @@
+{
+  "name": "mapVsArray.ts",
+  "date": "2022-11-08T12:09:11.993Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "map 100",
+      "ops": 455,
+      "margin": 2.42,
+      "percentSlower": 0
+    },
+    {
+      "name": "array map 100",
+      "ops": 93,
+      "margin": 1.26,
+      "percentSlower": 79.56
+    },
+    {
+      "name": "map 100e3",
+      "ops": 61,
+      "margin": 1.49,
+      "percentSlower": 86.59
+    },
+    {
+      "name": "array map 100e3",
+      "ops": 0,
+      "margin": 3.13,
+      "percentSlower": 100
+    }
+  ],
+  "fastest": {
+    "name": "map 100",
+    "index": 0
+  },
+  "slowest": {
+    "name": "array map 100e3",
+    "index": 3
+  }
+}

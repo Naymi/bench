@@ -1,0 +1,39 @@
+{
+  "name": "Has element",
+  "date": "2023-01-30T15:53:15.429Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "indexOf string",
+      "ops": 2482,
+      "margin": 1.4,
+      "percentSlower": 1.47
+    },
+    {
+      "name": "indexOf testedArray",
+      "ops": 35,
+      "margin": 0.41,
+      "percentSlower": 98.61
+    },
+    {
+      "name": "includes string",
+      "ops": 2519,
+      "margin": 1.33,
+      "percentSlower": 0
+    },
+    {
+      "name": "includes testedArray",
+      "ops": 34,
+      "margin": 0.22,
+      "percentSlower": 98.65
+    }
+  ],
+  "fastest": {
+    "name": "includes string",
+    "index": 2
+  },
+  "slowest": {
+    "name": "includes testedArray",
+    "index": 3
+  }
+}

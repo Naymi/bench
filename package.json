@@ -1,0 +1,19 @@
+{
+  "name": "bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/benchmark": "^2.1.2",
+    "@types/node": "^18.7.15",
+    "benchmark": "^2.1.4",
+    "benny": "^3.7.1",
+    "ts-node": "^10.9.1"
+  }
+}
